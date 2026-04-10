@@ -16,7 +16,7 @@ The folder contains three training variants:
 
 ## Implementation
 
-The main implementation lives in [src/ai_for_sim/inr.py](/Users/yangjerry/Repo/ai-for-sim-ustc-cg26/src/ai_for_sim/inr.py).
+The main implementation lives in [src/ai_for_sim/inr.py](src/ai_for_sim/inr.py).
 
 Current model and training behavior:
 
@@ -36,7 +36,7 @@ Default quick configs used by the scripts:
 
 ### Supervised
 
-The supervised variant minimizes MSE against the full reference trajectory from the numerical solver in [00-discrete-solver](/Users/yangjerry/Repo/ai-for-sim-ustc-cg26/00-discrete-solver).
+The supervised variant minimizes MSE against the full reference trajectory from the numerical solver in [00-discrete-solver](00-discrete-solver).
 
 ### Physics
 
@@ -129,7 +129,7 @@ Sparse supervision points are chosen by evenly spaced indices from the reference
 
 ## Scripts
 
-Training scripts save checkpoints under [01-implicit-neural-representation/artifacts](/Users/yangjerry/Repo/ai-for-sim-ustc-cg26/01-implicit-neural-representation/artifacts):
+Training scripts save checkpoints under [01-implicit-neural-representation/artifacts](01-implicit-neural-representation/artifacts):
 
 - `train_supervised.py` -> `artifacts/supervised/supervised_checkpoint.pt`
 - `train_physics.py` -> `artifacts/physics/physics_checkpoint.pt`
